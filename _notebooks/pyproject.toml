@@ -1,0 +1,15 @@
+[tool.poetry]
+name = "notebookpost"
+version = "0.1.0"
+description = "test for notebook blog"
+authors = ["Dexter Tan <dexter_tan@nec.com.sg>"]
+license = "Public"
+
+[tool.poetry.dependencies]
+python = "^3.7.1"
+
+[tool.poetry.dev-dependencies]
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
